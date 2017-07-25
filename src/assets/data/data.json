@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "fullName": "Nataascha Anderson",
+    "email": "natascha.anderson@gmail.com",
+    "phoneNumber": "+01/47 433 2140",
+    "source": "Internet Search",
+    "status": "Lead",
+    "case": "Divorce"
+  },
+  {
+    "id": 2,
+    "fullName": "Mark Adams",
+    "email": "mark.adams@company.com",
+    "phoneNumber": "/",
+    "source": "Facebook",
+    "status": "Lead",
+    "case": "Fraud"
+  },
+  {
+    "id": 3,
+    "fullName": "Sadie Williams",
+    "email": "williamslaw@gmail.com",
+    "phoneNumber": "+01/47 433 2140",
+    "source": "Refferal",
+    "status": "Lead",
+    "case": "DUI"
+  },
+  {
+    "id": 4,
+    "fullName": "Nomran W. Samsonite",
+    "email": "natascha.anderson@gmail.com",
+    "phoneNumber": "+01/47 433 2140",
+    "source": "Facebook",
+    "status": "Lead",
+    "case": "Tax Evasion"
+  },
+  {
+    "id": 5,
+    "fullName": "Natascha Anderson",
+    "email": "natascha.anderson@gmail.com",
+    "phoneNumber": "+01/47 433 2140",
+    "source": "Internet Search",
+    "status": "Lead",
+    "case": "Assault"
+  },
+  {
+    "id": 6,
+    "fullName": "Mark Adams",
+    "email": "mark.adams@company.com",
+    "phoneNumber": "/",
+    "source": "Facebook",
+    "status": "Lead",
+    "case": "Fraud"
+  },
+  {
+    "id": 7,
+    "fullName": "Sadie Williams",
+    "email": "williamslaw@gmail.com",
+    "phoneNumber": "+01/47 433 21 40",
+    "source": "Refferal",
+    "status": "Lead",
+    "case": ""
+  },
+  {
+    "id": 8,
+    "fullName": "Nomran W. Samsonite",
+    "email": "natascha.anderson@gmail.com",
+    "phoneNumber": "+01/47 433 2140",
+    "source": "Facebook",
+    "status": "Lead",
+    "case": "Tax Evasion"
+  }
+]

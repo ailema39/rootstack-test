@@ -1,0 +1,150 @@
+<div class="grid-x hide-for-large">
+  <div class="mobile header cell">
+    <div class="grid-x">
+      <div class="content search small-4 cell text-left">
+        <i class="fa fa-align-right menu" aria-hidden="true"></i>
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+      <div class="content grid small-4 cell text-center">
+        <i class="fa fa-th" aria-hidden="true"></i>
+      </div>
+      <div class="content user small-12 cell text-right">
+        <i class="fa fa-envelope-open-o mail" aria-hidden="true"></i> Hello, Shaun Clark <i class="fa fa-angle-down options" aria-hidden="true"></i>
+      </div>
+      <div class="mobile-menu">
+        <div class="close">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-home fa-fw" aria-hidden="true"></i> Home</li>
+          <li class="is-active"><i class="fa-li fa fa-user-circle-o fa-fw" aria-hidden="true"></i> Leads</li>
+          <li><i class="fa-li fa fa-check-square-o fa-fw" aria-hidden="true"></i> Tasks</li>
+          <li><i class="fa-li fa fa-clone fa-fw" aria-hidden="true"></i> Forms</li>
+          <li><i class="fa-li fa fa-user-plus fa-fw" aria-hidden="true"></i> Referals</li>
+          <li><i class="fa-li fa fa-list-ul fa-fw" aria-hidden="true"></i>Checklists</li>
+          <li><i class="fa-li fa fa-calendar fa-fw" aria-hidden="true"></i> Calendar</li>
+          <li><i class="fa-li fa fa-cog fa-fw" aria-hidden="true"></i> Settings</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="grid-x" data-equalizer data-equalize-on="large">
+  <div class="sidebar large-2 cell show-for-large" data-equalizer-watch>
+    <div class="grid-x">
+      <div class="small-12 cell menu">
+        <i class="fa fa-align-right" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="grid-x">
+      <div class="small-12 cell">
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-home fa-fw" aria-hidden="true"></i> Home</li>
+          <li class="is-active"><i class="fa-li fa fa-user-circle-o fa-fw" aria-hidden="true"></i> Leads</li>
+          <li><i class="fa-li fa fa-check-square-o fa-fw" aria-hidden="true"></i> Tasks</li>
+          <li><i class="fa-li fa fa-clone fa-fw" aria-hidden="true"></i> Forms</li>
+          <li><i class="fa-li fa fa-user-plus fa-fw" aria-hidden="true"></i> Referals</li>
+          <li><i class="fa-li fa fa-list-ul fa-fw" aria-hidden="true"></i>Checklists</li>
+          <li><i class="fa-li fa fa-calendar fa-fw" aria-hidden="true"></i> Calendar</li>
+          <li><i class="fa-li fa fa-cog fa-fw" aria-hidden="true"></i> Settings</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="main-container small-12 large-10 cell" data-equalizer-watch>
+    <div class="grid-x show-for-large">
+      <div class="header cell">
+        <div class="grid-x">
+          <div class="content search large-4 cell text-left">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+          <div class="content grid large-4 cell text-center">
+            <i class="fa fa-th" aria-hidden="true"></i>
+          </div>
+          <div class="content user large-4 cell text-right">
+            <i class="fa fa-envelope-open-o mail" aria-hidden="true"></i> Hello, Shaun Clark <i class="fa fa-angle-down options" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-x">
+      <div class="main-content small-10 small-offset-1 cell">
+        <div class="grid-x">
+          <div class="small-12 large-3 cell">
+            <h4 class="title">Leads</h4>
+            <div class="show">Showing <span>20 <i class="fa fa-angle-down" aria-hidden="true"></i></span> out of 521 contacts</div>
+          </div>
+          <div class="small-12 large-5 lead-search cell">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+          <div class="small-12 large-4 text-right cell">
+            <span class="select-wrapper">
+              <select class="" name="">
+                <option value="">Type</option>
+              </select>
+            </span>
+            <span class="select-wrapper">
+              <select class="" name="">
+                <option value="">Source</option>
+              </select>
+            </span>
+            <div class="button add" data-open="add-modal">+ ADD CONTACT</div>
+            <div class="reveal modal" id="add-modal" data-reveal>
+              <h2>Add Contact</h1>
+              <p class="lead">To add a contact send the information below:</p>
+              <form action="#" method="post">
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fullname" id="fullname" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="phonenumber">Phone</label>
+                <input type="tel" name="phonenumber" id="phonenumber" required>
+                <label for="source">Source</label>
+                <div class="select-wrapper">
+                  <select name="source" id="source" required>
+                    <option value=""></option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Internet Search">Internet Search</option>
+                    <option value="Refferal">Refferal</option>
+                  </select>
+                </div>
+                <label for="case">Case</label>
+                <div class="select-wrapper">
+                  <select name="case" id="case" required>
+                    <option value=""></option>
+                    <option value="Assault">Assault</option>
+                    <option value="Divorce">Divorce</option>
+                    <option value="DUI">DUI</option>
+                    <option value="Fraud">Fraud</option>
+                    <option value="Tax Evasion">Tax Evasion</option>
+                  </select>
+                </div>
+                <div class="text-right">
+                  <input type="submit" class="button send" value="SEND">
+                </div>
+              </form>
+              <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-x">
+          <div class="small-12 cell ">
+
+          </div>
+        </div>
+        <table id="leads">
+          <thead>
+            <th class="sortable" data-index="0">LEAD</th>
+            <th class="sortable show-for-large" data-index="1">EMAIL</th>
+            <th class="show-for-large">PHONE</th>
+            <th class="show-for-large">SOURCE</th>
+            <th class="show-for-large"></th>
+            <th></th>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
